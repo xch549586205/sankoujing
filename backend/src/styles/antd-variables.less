@@ -1,0 +1,105 @@
+/*
+ * @Description: 通过变量全局修改饿了么样式
+ * @Author: your name
+ * @LastEditors: Please set LastEditors
+ * @Date: 2019-05-07 11:44:33
+ * @LastEditTime: 2019-06-27 10:13:47
+ */
+@import '~ant-design-vue/dist/antd.less';
+// @primary-color: #ff0;
+
+/* dropdown */
+.ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-dropdown-menu .ant-dropdown-menu-submenu-title {
+  padding: 5px 40px;
+  text-align: center;
+  color: #333333;
+}
+.topbar .ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  // background: ;
+}
+
+/* menu */
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #1c2b36;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background: #243745;
+  border-left: 3px solid #1890ff;
+}
+
+/* modal */
+.ant-modal-header {
+  border-bottom: none;
+  padding: 10px 24px;
+}
+.ant-modal-footer {
+  border-top: none;
+}
+
+/* 表格 */
+.ant-table-thead > tr > th {
+  background: #e4effe;
+  color: #333333;
+  // border: none;
+  font-weight: 400;
+}
+.ant-table-thead > tr:first-child > th:first-child {
+  border-top-left-radius: 0;
+}
+.ant-table-thead > tr:first-child > th:last-child {
+  border-top-right-radius: 0;
+}
+.ant-table-body {
+  background: #fff;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 10px 16px;
+}
+.ant-table-tbody > tr > td {
+  border: none;
+}
+.ant-table-pagination.ant-pagination {
+  float: none;
+}
+.reset-pagination .ant-pagination {
+  margin-left: 40px;
+}
+.reset-table-th .ant-table-thead > tr > th {
+  background: #ffffff;
+}
+.ant-table-placeholder {
+  padding: 10px;
+  border-bottom: none;
+}
+.ant-table-pagination.ant-pagination {
+  margin-left: 40px;
+}
+/* Tab */
+.ant-tabs-nav-wrap {
+  // background: #eef2f5;
+}
+
+/* form */
+.reset-form-item .ant-form-item {
+  margin-bottom: 0;
+}
+.reset-form-item-label .ant-form-item {
+  .ant-form-item-label {
+    text-align: left;
+    color: #999999;
+  }
+}
+.ant-form-item {
+  margin-bottom: 20px;
+}
+.form-item-label-left .ant-form-item {
+  .ant-form-item-label {
+    // text-align: left;
+  }
+}
